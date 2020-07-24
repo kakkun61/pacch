@@ -1,0 +1,10 @@
+cradle:
+  cabal:
+    - path: "./src"
+      component: "lib:pacch"
+
+    - path: "./app/Main.hs"
+      component: "pacch:exe:pacch"
+
+    - path: "./test"
+      component: "pacch:test:spec"

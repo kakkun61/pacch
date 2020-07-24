@@ -1,0 +1,4 @@
+packages: .
+
+package pacch
+  test-show-details: direct
